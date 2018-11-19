@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Undertale;
+    src: url('./assets/fonts/DeterminationMonoWeb.woff');
+}
+
+
+
+h1,
+p,
+a {
+    font-family: Undertale;
+    color: white;
+    text-align: center;
+}
+
+p a {
+    color: lightblue;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.bottom-text a {
+    font-size: 1em;
+}
+
+@media (min-width:900px) {
+    p {
+        font-size: 2em;
+    }
+	
+	h1{font-size:5em}
+    .bottom-text {
+        font-size: 1.5em;
+    }
+}
